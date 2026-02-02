@@ -1,0 +1,19 @@
+.filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.filters select {
+    max-width: 250px;
+}
+
+.actions {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+}
+
+.actions .btn-sm {
+    padding: 0.25rem 0.5rem;
+}

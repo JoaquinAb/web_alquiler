@@ -1,0 +1,28 @@
+.addProduct {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.addProduct select {
+    flex: 1;
+    min-width: 300px;
+}
+
+.emptyItems {
+    padding: 2rem;
+    text-align: center;
+    color: var(--color-gray-500);
+    background: var(--color-gray-50);
+    border-radius: var(--radius-md);
+}
+
+.formActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-gray-200);
+}

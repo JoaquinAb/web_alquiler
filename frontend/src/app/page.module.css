@@ -1,0 +1,33 @@
+.quickActions {
+  margin-top: 2rem;
+}
+
+.actionCard {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-gray-800);
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.actionCard:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: var(--color-primary);
+}
+
+.actionIcon {
+  font-size: 2rem;
+}
+
+.actionLabel {
+  font-size: 0.875rem;
+  font-weight: 500;
+}

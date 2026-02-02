@@ -1,0 +1,74 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 260px;
+    right: 0;
+    height: 64px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    z-index: 50;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        left: 0;
+    }
+}
+
+.menuButton {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: var(--color-gray-700);
+}
+
+@media (max-width: 768px) {
+    .menuButton {
+        display: block;
+    }
+}
+
+.title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-gray-800);
+}
+
+@media (max-width: 768px) {
+    .title {
+        display: none;
+    }
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.userName {
+    font-size: 0.875rem;
+    color: var(--color-gray-600);
+}
+
+.logoutBtn {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    background: var(--color-gray-100);
+    border: none;
+    border-radius: var(--radius-md);
+    color: var(--color-gray-700);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.logoutBtn:hover {
+    background: var(--color-gray-200);
+}
